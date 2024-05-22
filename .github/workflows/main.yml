@@ -25,7 +25,6 @@ jobs:
       - name: Deploy
         uses: JamesIves/deploy-to-github-pages@v3
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
           FOLDER: build
           DEPLOY_BRANCH: gh-pages
